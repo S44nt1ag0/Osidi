@@ -5,7 +5,7 @@
     <div class="container sobre">
         
         <div class="img-container-sobre">
-            <img src="../../assets/img/img_sobre.png">
+            <img src="../../assets/img/noticias/saude.png">
         </div>
 
         <div class="texto-container-sobre">
