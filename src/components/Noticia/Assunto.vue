@@ -4,7 +4,7 @@
 <template>
     <div class="container assunto">
         <h2>Saude e Bem-Estar: Parcerias com instituições de Saudes</h2>
-        <img src="../../assets/img/Noticias/saude.PNG">
+        <img src="../../assets/img/Noticias/saude.png">
 
         <div class="compartilhe-container">
             <h5>Compartilhar:</h5>
