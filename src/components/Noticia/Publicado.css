@@ -1,0 +1,44 @@
+.publicado {
+    width: 1000px;
+    max-width: 100% !important; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0px !important;
+}
+
+.publicado img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dados-publicado {
+    height: 100%;
+    width: 600px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-author {
+    font-weight: bold;
+    color: rgb(90, 90, 90) !important;
+}
+
+.data-publicacao {
+    color: rgb(90, 90, 90) !important;
+}
+
+@media (max-width: 599px){
+    .publicado {
+        padding-left: 20px !important;
+    }
+
+    .publicado img {
+        width: 120px !important;
+        height: 60px !important;
+    }
+}

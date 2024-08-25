@@ -1,0 +1,75 @@
+
+.card-ajudamos {
+    margin-top: 60px;
+    background: #141414;
+    height: 240px;
+}
+
+.box-ajudamos {
+    background: #141414;
+    display: flex;
+    height: 100%;
+}
+
+.card-ajudamos-text {
+    width: 46%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.card-ajudamos-conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.card-ajudamos-text h3 {
+    color: white;
+}
+
+.box-ajudamos-conteudo {
+    width: 100%;
+    height: 110px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px;
+}
+
+.icone-box-conteudo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-box-conteudo img {
+    height: 40px;
+    transition: all 60ms ease-in-out;
+}
+
+.icone-box-conteudo img:hover {
+    transform: scale(1.1)
+}
+
+.content-box-conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.content-box-conteudo h4 {
+    color: #71ac74;
+    margin-bottom: -3px;
+}
+
+.content-box-conteudo a {
+    color: #8b8b8b !important;
+}
+

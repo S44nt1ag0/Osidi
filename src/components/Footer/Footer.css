@@ -1,0 +1,111 @@
+footer {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    background: #141414;
+    margin-bottom: -10px;
+    height: 600px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 0px;
+}
+
+.contatos-empresa-footer {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 80px;
+}
+
+.contatos-empresa-footer span {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    color: white;
+}
+
+.contatos-empresa-footer span a {
+    font-weight: bold;
+}
+
+.contatos-empresa-footer img {
+    width: 160px;
+    object-fit: cover;
+}
+
+.links-website-empresa-footer {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.links-website-empresa-footer span {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    color: white;
+}
+
+.links-website-empresa-footer span a {
+    font-weight: bold;
+}
+
+.redes-contatos-footer {
+    display: flex;
+    margin-top: 10px;
+}
+
+.redes-contatos-footer i {
+    font-size: 20px !important;
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+}
+
+.redes-contatos-footer i:hover {
+    color: green;
+}
+
+.website-links-container {
+    width: 100%;
+    text-align: left;
+}
+
+.website-links-container h5 {
+    color: white;
+    font-weight: 16px !important;
+    font-weight: 400 !important;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.texto-copyright {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    color: white; 
+    text-align: center;
+    display: none;
+    flex-direction: column;
+}
+
+.texto-copyright a {
+    font-weight: bold;
+    font-weight: 800;
+}

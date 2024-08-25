@@ -1,0 +1,88 @@
+.content-membros {
+    width: 100%;
+    background: #141414;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.membros {
+    padding-top: 40px;
+}
+
+#owl-membros {
+    margin-top: 40px;
+}
+
+.membros-text-information {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+
+.membros-text-information h2 {
+    color: white;
+}
+
+.membros-text-information h2 i {
+    color: green;
+}
+
+.membros-text-information button {
+    position: absolute;
+    height: 100%;
+    right: 0px;
+}
+
+.btn-mais-sobre-membros {
+    background: transparent;
+    border-style: none;
+    color: #28d318;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-mais-sobre-membros i {
+    margin-left: 10px;
+}
+
+#owl-membros .owl-carousel {
+    margin-top: 40px;
+    height: 100%;
+}
+
+.box-membro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box-membro img {
+    height: 270px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.box-membro h5 {
+    color: white;
+    margin-top: 4px;
+}
+
+.membros-funcao {
+    color: #686868;
+    font-weight: bold;
+    width: 50%;
+    font-size: 17px;
+    text-align: center;
+    padding: 4px;
+    border-bottom: 3px solid #474747;
+}
+
+.box-membro a {
+    margin-top: 10px;
+    color: #686868 !important;
+    font-weight: 600;    
+}

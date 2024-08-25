@@ -1,0 +1,51 @@
+.sobre-banner {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    background-image: url("https://www.limareis.com.br/wp-content/uploads/2019/12/imagem-site-12-700x480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    padding: 0px;
+    justify-content: right;
+    align-items: center;
+}
+
+.texto-banner-sobre {
+    position: relative;
+    height: 70%;
+    width: 40%;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-right: 40px;
+}
+
+.texto-banner-sobre h3 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: -15px;
+}
+
+.texto-banner-sobre a {
+    color: white !important;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.texto-banner-sobre a i {
+    color: green;
+    margin-right: 5px;
+}
+
+.tags-banner-sobre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: left;
+}

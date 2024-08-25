@@ -1,0 +1,237 @@
+.pesquisa {
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+    padding: 0px;
+}
+
+.categorias-search {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.categorias-search h4 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.input-pesqusiar {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input-pesqusiar label {
+    position: absolute;
+    padding: 11px;
+    top: 1px;
+    left: 4px;
+}
+
+.categorias-search input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.resultado-categoria {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.categorias {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias .texto-cat {
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(121, 121, 121) !important;
+    cursor: pointer;
+}
+
+.texto-cat:hover {
+    color: #15bc14 !important;
+}
+
+.texto-cat.active {
+    border-left: 5px solid #15bc14 !important;
+    color: #15bc14 !important;
+}
+
+.resultado-categoria h4 {
+    font-weight: 600;
+    font-size: 19px;
+    color: #15bc14;
+    margin-bottom: 20px;
+}
+
+.card-resultado-categoria {
+    width: 100%;
+    height: 200px !important;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-resultado-img {
+    width: 80%;
+    height: 100%;
+}
+
+.card-resultado-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-resultado-conteudo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.card-resultado-conteudo h4 {
+    color: black;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.card-resultado-conteudo a {
+    color: #15bc14 !important;
+    font-weight: bolder;
+}
+
+.card-resultado-conteudo p {
+    color: gray;
+    max-width: 90%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-resultado-ver {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+
+.pagination {
+    position: relative !important;
+    width: 30% !important;
+    float: right !important;
+    margin-top: 30px;
+}
+
+.page-link {
+    border: none;
+    font-weight: bold;
+}
+
+.pagina {
+    border-radius: 10px;
+    color: rgb(146, 146, 146);
+    font-size: 14px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.pagina:hover {
+    background: #15bc14 !important;
+    color: white;
+}
+
+.pagina:focus {
+    color: white;
+    background: #15bc14 !important;
+}
+
+.page-item i {
+    color: rgb(146, 146, 146);
+}
+
+.page-link.pagina.active {
+    color: white !important;
+    background: #15bc14 !important;   
+}
+
+@media (max-width: 599px) {
+    .banner-busca {
+        margin-top: 10px !important;
+        width: 90% !important;
+        max-width: 100% !important;
+    }
+
+    .pesquisa {
+        flex-direction: column;
+        padding: 20px !important;
+        max-width: 100% !important;
+    }
+
+    .categorias-search {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .card-resultado-categoria {
+        flex-direction: column;
+        height: 100% !important;
+        margin-bottom: 40px;
+    }
+
+    .card-resultado-conteudo a {
+        color: black !important;
+    }
+
+    .card-resultado-conteudo p {
+        margin-bottom: 20px !important;
+        font-size: 15px !important;
+    }
+
+    a.card-resultado-ver {
+        color: #15bc14 !important;
+        font-weight: bolder !important;
+        bottom: -13px;
+    }
+
+    .card-resultado-img {
+        width: 100%;
+    }
+
+    .pagination {
+        width: 100% !important;
+        float: left !important;
+        margin-bottom: 0px !important;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .breadcrumb-busca {
+        display: none;
+    }
+}

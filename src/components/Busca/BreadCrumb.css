@@ -1,0 +1,21 @@
+.breadcrumb-item a {
+    margin: 10px;
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+}
+
+.breadcrumb-item.active {
+    font-weight: bolder !important;
+    cursor: pointer;
+}
+
+.breadcrumb {
+    margin-top: 10px !important;
+    background-color: transparent !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-weight: bold !important;
+    color: green;
+}
