@@ -41,7 +41,7 @@
 
       <div class="card-resultado-categoria">
         <div class="card-resultado-img">
-          <img src="../../assets/img/Categorias/noticia.jpg" alt="" />
+          <img src="../../assets/img/categorias/noticia.jpg" alt="" />
         </div>
         <div class="card-resultado-conteudo">
           <a>Categoria</a>
@@ -57,7 +57,7 @@
 
       <div class="card-resultado-categoria">
         <div class="card-resultado-img">
-          <img src="../../assets/img/Categorias/noticia.jpg" alt="" />
+          <img src="../../assets/img/categorias/noticia.jpg" alt="" />
         </div>
         <div class="card-resultado-conteudo">
           <a>Categoria</a>
@@ -73,7 +73,7 @@
 
       <div class="card-resultado-categoria">
         <div class="card-resultado-img">
-          <img src="../../assets/img/Categorias/noticia.jpg" alt="" />
+          <img src="../../assets/img/categorias/noticia.jpg" alt="" />
         </div>
         <div class="card-resultado-conteudo">
           <a>Categoria</a>
@@ -89,7 +89,7 @@
 
       <div class="card-resultado-categoria">
         <div class="card-resultado-img">
-          <img src="../../assets/img/Categorias/noticia.jpg" alt="" />
+          <img src="../../assets/img/categorias/noticia.jpg" alt="" />
         </div>
         <div class="card-resultado-conteudo">
           <a>Categoria</a>
@@ -105,7 +105,7 @@
 
       <div class="card-resultado-categoria">
         <div class="card-resultado-img">
-          <img src="../../assets/img/Categorias/noticia.jpg" alt="" />
+          <img src="../../assets/img/categorias/noticia.jpg" alt="" />
         </div>
         <div class="card-resultado-conteudo">
           <a>Categoria</a>
@@ -121,7 +121,7 @@
 
       <div class="card-resultado-categoria">
         <div class="card-resultado-img">
-          <img src="../../assets/img/Categorias/noticia.jpg" alt="" />
+          <img src="../../assets/img/categorias/noticia.jpg" alt="" />
         </div>
         <div class="card-resultado-conteudo">
           <a>Categoria</a>

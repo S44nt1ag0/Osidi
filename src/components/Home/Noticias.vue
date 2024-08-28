@@ -57,7 +57,7 @@ $(function () {
           incidunt expedita.
         </p>
 
-        <button class="btn-box-noticia">Ler Sobre</button>
+        <button class="btn-box-noticia"><a href="/noticia">Ler Sobre</a></button>
       </div>
 
       <div class="box-noticia">
@@ -72,7 +72,7 @@ $(function () {
           incidunt expedita.
         </p>
 
-        <button class="btn-box-noticia">Ler Sobre</button>
+        <button class="btn-box-noticia"><a href="/noticia">Ler Sobre</a></button>
       </div>
 
       <div class="box-noticia">
@@ -87,7 +87,7 @@ $(function () {
           incidunt expedita.
         </p>
 
-        <button class="btn-box-noticia">Ler Sobre</button>
+        <button class="btn-box-noticia"><a href="/noticia">Ler Sobre</a></button>
       </div>
     </div>
   </div>

@@ -82,6 +82,10 @@
 /* Estilos para telas pequenas (sm) */
 @media (max-width: 599px) {
 
+    body, html {
+        overflow-x: hidden!important;
+    }
+    
     .nav .dropdown {
         display: none;
     }

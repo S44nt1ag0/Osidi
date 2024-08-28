@@ -75,6 +75,13 @@
     font-size: 16px;
 }
 
+.btn-box-noticia a {
+    color: #28d318 !important;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .btn-box-noticia:hover {
     color: #064900;
 }
